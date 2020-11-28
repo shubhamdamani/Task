@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_upload"
+    tools:context=".UploadActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/headingTV"
+            android:text="Upload a Question"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="#ffffff"
+            android:background="#000119"
+            android:padding="@dimen/_5ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+        <EditText
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/titleET"
+            android:hint="Question Title"
+            android:background="@drawable/capsule"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:padding="@dimen/_10ssp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="horizontal"
+            >
+        <Spinner
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:id="@+id/companySP"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+            <Spinner
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/collegeSP"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="horizontal"
+            >
+            <Spinner
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/interviewSP"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+            <Spinner
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/jobSP"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:id="@+id/contentET"
+            android:background="@drawable/capsule"
+            android:padding="@dimen/_5ssp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:hint="Enter Question Here...."
+
+            />
+        <Spinner
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:id="@+id/topicSP"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+    </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:id="@+id/submitBTN"
+            android:background="@drawable/btncapsule"
+            android:textColor="#ffffff"
+            android:text="submit"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
